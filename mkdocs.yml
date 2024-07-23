@@ -1,0 +1,13 @@
+site_name: Department of Computer Science | Technical Reports
+nav:
+  - index.md
+
+theme:
+  name: material
+  logo: 'images/logo2.png'
+  favicon: 'images/logo.png'
+  palette:
+  
+    scheme: default
+    primary: 'green'
+    accent: 'light green'
