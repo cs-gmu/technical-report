@@ -206,6 +206,26 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../instruction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Guide
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -388,91 +408,91 @@
 <p><strong>Number:</strong> ISSE-TR-94-14</p>
 <p><strong>Abstract:</strong></p>
 <p>Concurrency is an increasingly popular modeling concept in object-oriented analysis, software design, process modeling and other areas. Many approaches view their problem domains in terms of independent, concurrent processes that occasionally need to be synchronized. This is potentially an extremely concurrent model, where "essential" processes that represent independent progress may be lost in the wealth of more trivial processes. This is particularly important in a software implementation, where various overhead costs are incurred by each process.</p>
-<p><a href="../../pdfs/1994/ISSE-TR-94-14.pdf">PDF</a></p>
+<p><a href="../pdfs/1994/ISSE-TR-94-14.pdf">PDF</a></p>
 <h2 id="semantic-update-optimization-in-active-databases">Semantic Update Optimization in Active Databases</h2>
 <p><strong>Authors:</strong> Jong Pil Yoon and Larry Kerschberg</p>
 <p><strong>Number:</strong> ISSE-TR-94-13</p>
 <p><strong>Abstract:</strong></p>
 <p>In an active database, an update may be constrained by integrity constraints, and may also trigger rules that, in turn, may affect the database state. The general problem is to effect the update while also managing the "side-effects" of constraint enforcement and rule execution. In this paper an update calculus is proposed by which updates, constraints and rules are specified and managed within the same formalism. Constraints and production rules are expressed in a constraint language based on first-order logic. These logic expressions are used to semantically transform an original update into a sequence of updates that reflect the relevant constraints and production rules. The inference mechanism associated with processing a reformulated query ensures that: 1) the pre- and post-conditions of an update are satisfied, 2) update side-effects are propagated, and 3) repairs are made to tuples exhibiting constraint violations. Thus, a user-specified "update" is transformed, through semantic reformulation techniques, into a sequence of updates which together ensure semantic integrity of the original update as well as its propagated side-effects. This research presents several contributions. Integrity constraints and production rules are expressed in a declarative formalism so that they may be reasoned about. The update calculus formalism handles the semantic reformulation of an update to reflect relevant constraints and rules governing it. Finally, an algorithm is presented to handle constraint enforcement, production rule firing, and subsequent repair actions.</p>
-<p><a href="../../pdfs/1994/ISSE-TR-94-13.pdf">PDF</a></p>
+<p><a href="../pdfs/1994/ISSE-TR-94-13.pdf">PDF</a></p>
 <h2 id="the-lyric-language-querying-constraint-objects">The LyriC Language: Querying Constraint Objects</h2>
 <p><strong>Authors:</strong> Alexander Brodsky and Yoram Kornatzky</p>
 <p><strong>Number:</strong> ISSE-TR-94-12</p>
 <p><strong>Abstract:</strong></p>
 <p>Presented in this paper is a novel language for querying object-oriented databases where objects may hold spatial, temporal or constraint data, conceptually represented by equality and inequality constraints. The proposed LyriC language is motivated by application realms such as (1) constraint-based design in two-, three-, or higher-dimensional space, (2) large-scale optimization and analysis, based mostly on linear programming techniques, and (3) spatial and geographic databases. LyriC is an extension of flat constraint query languages, and especially those for linear constraint databases, to complex objects. The extension is based on the object-oriented paradigm, where a database is a collection of objects some of whose attributes might be either described explicitly or implicitly by constraints. Constraints are organized in classes with associated methods. The query language is an extension of the language XSQL, suggested by Kifer, Kim and Sagiv, and is built around the idea of extended path expressions. Path expressions in a query traverse nested structures in one sweep. Constraints are used in a query to filter stored constraints and to create new constraint objects.</p>
-<p><a href="../../pdfs/1994/ISSE-TR-94-12.pdf">PDF</a></p>
+<p><a href="../pdfs/1994/ISSE-TR-94-12.pdf">PDF</a></p>
 <h2 id="logic-design-for-temporals-database-with-multiple-temporal-types">Logic Design for Temporals Database with Multiple Temporal Types</h2>
 <p><strong>Authors:</strong> X. Sean Wang, Claudio Bettini, Alexander Brodsky, and Sushil Jajodia</p>
 <p><strong>Number:</strong> ISSE-TR-94-11</p>
 <p><strong>Abstract:</strong></p>
 <p>The purpose of good database logical design is to eliminate data redundancy and insertion and deletion anomalies. In order to achieve this objective for temporal databases, the notions of temporal types and temporal functional dependencies (TFDs) are introduced. A temporal type is a monotonic mapping from ticks of time (represented by positive integers) to time sets (represented by subsets of reals) and is used to capture various standard and user-defined calendars. A TFD is a proper extension of the traditional functional dependency and takes the form X-u-&gt;Y, meaning that there is a unique value for Y during one tick of the temporal type u for one particular X value. An axiomatization for TFDs is given. Since a finite set of TFDs usually implies an infinite number of TFDs, we introduce the notion of and give an axiomatization for a finite closure to effectively capture a finite set of implied TFDs that are essential to the logical design. Temporal normalization procedures with respect to TFDs are then given. More specifically, temporal Boyce-Codd normal form (TBCNF) that eliminates all data redundancies, and temporal third normal form (T3NF) that allows dependency preservation, are defined. Both normal forms are proper extensions of their traditional counterparts, BCNF and 3NF. Decomposition algorithms are presented that give lossless TBCNF decompositions and lossless, dependency preserving, T3NF decompositions.</p>
-<p><a href="../../pdfs/1994/ISSE-TR-94-11.pdf">PDF</a></p>
+<p><a href="../pdfs/1994/ISSE-TR-94-11.pdf">PDF</a></p>
 <h2 id="the-dynamic-domain-reduction-approach-to-test-data-generation-design-and-algorithms">The Dynamic-domain Reduction Approach to Test Data Generation: Design and Algorithms</h2>
 <p><strong>Authors:</strong> Jeff Offutt, Zhenyi Jin, and Jie Pan</p>
 <p><strong>Number:</strong> ISSE-TR-94-10</p>
 <p><strong>Abstract:</strong></p>
 <p>Although there are many techniques and tools available to support the software testing process, one of the most crucial parts of testing, generating the test data, is usually done by hand. Test data generation is one of the most technically challenging steps in testing software, but unfortunately, most practical systems do not incorporate any automation in this step. This paper presents a new method for automatically generating test data that incorporates ideas from symbolic evaluation, constraint-based testing, and dynamic test data generation. It takes an initial set of values for each input, and "pushes" the values through the control-flow graph of the program in a dynamic way, modifying the sets of values as branches in the program are taken. This method is an outgrowth of previous research in constraint-based testing, and combines several of the steps that were previously separate into one coherent process. The major difference is that this method is dynamic, and resolves path constraints immediately; it also includes an intelligent search technique, and improved handling of arrays, loops, and pointers.</p>
-<p><a href="../../pdfs/1994/ISSE-TR-94-10.pdf">PDF</a></p>
+<p><a href="../pdfs/1994/ISSE-TR-94-10.pdf">PDF</a></p>
 <h2 id="using-constraints-to-detect-equivalent-mutantsr">Using Constraints to Detect Equivalent Mutantsr</h2>
 <p><strong>Authors:</strong> Jeff Offutt and Jie Pan</p>
 <p><strong>Number:</strong> ISSE-TR-94-09</p>
 <p><strong>Abstract:</strong></p>
 <p>Mutation testing is a software testing technique that is considered to be very powerful, but is very expensive to apply. One open problem in mutation testing is how to automatically detect equivalent mutant programs. Currently, equivalent mutants are detected by hand, which makes it a very expensive and time-consuming process, and restricts the use of mutation testing. This paper presents a technique that uses mathematical constraints to automatically detect equivalent mutants. A tool Equivalencer has been developed to demonstrate this technique, and experimental results from using this tool are presented.</p>
-<p><a href="../../pdfs/1994/ISSE-TR-94-09.pdf">PDF</a></p>
+<p><a href="../pdfs/1994/ISSE-TR-94-09.pdf">PDF</a></p>
 <h2 id="an-application-of-entity-life-modeling-to-incremental-re-engineering-of-fortran-reactive-program-components">An Application of Entity Life Modeling to Incremental Re-engineering of Fortran Reactive Program Components</h2>
 <p><strong>Authors:</strong> F. G. Patterson Jr. and Jean-Jacques Moortgat</p>
 <p><strong>Number:</strong> ISSE-TR-94-08</p>
 <p><strong>Abstract:</strong></p>
 <p>This paper describes a case study in which the Entity Life Modeling (ELM) technique is used to reconstruct a single module from a legacy FORTRAN application. The architecture of the module changed as a result of entity identification and mode analysis. Concurrent aspects of the problem domain were identified and modeled as concurrent tasks. To interface with the greater part of the software system that was not reconstructed, an interface object was created. The interface object may be regarded as scaffolding that will be discarded when neighboring increments of the system are reengineered. The reengineered increment has a highly maintainable design that is characteristic of complete systems constructed using the ELM methodology.</p>
-<p><a href="../../pdfs/1994/ISSE-TR-94-08.pdf">PDF</a></p>
+<p><a href="../pdfs/1994/ISSE-TR-94-08.pdf">PDF</a></p>
 <h2 id="algebraic-query-languages-on-temporal-databases-with-multiple-time-granularities">Algebraic Query Languages on Temporal Databases with Multiple Time Granularities</h2>
 <p><strong>Authors:</strong> X. Sean Wang</p>
 <p><strong>Number:</strong> ISSE-TR-94-07</p>
 <p><strong>Abstract:</strong></p>
 <p>This paper investigates algebraic query languages on temporal databases. The data model used is a multidimensional extension of the temporal modules introduced in [1]. In a multidimensional temporal module, every non-temporal fact has a timestamp that is a set of n-ary tuples of time points. A temporal module has a set of timestamped facts and has an associated temporal granularity (or temporal type), and a temporal database is a set of multidimensional temporal modules with possibly different temporal types. Temporal algebras are proposed on this database model. Example queries and results of the paper show that the algebras are rather expressive. The operations of the algebras are organized into two groups: snapshot-wise operations and timestamp operations. Snapshot-wise operations are extensions of the traditional relational algebra operations, while timestamp operations are extensions of first-order mappings from timestamps to timestamps. Multiple temporal types are only dealt with by these timestamp operations. Hierarchies of algebras are defined in terms of the dimensions of the temporal modules in the intermediate results. The symbol Talg_k^{m,n} is used to denote all the algebra queries whose input, output and intermediate modules are of dimensions at most m, n and k, respectively. (Most temporal algebras proposed in the literature are in Talg_1^{1,1}.) Equivalent hierarchies Tcalc_k^{m,n} are defined in a calculus query language that is formulated by using a first-order logic with linear order. The addition of aggregation functions into the algebras is also studied.</p>
-<p><a href="../../pdfs/1994/ISSE-TR-94-07.pdf">PDF</a></p>
+<p><a href="../pdfs/1994/ISSE-TR-94-07.pdf">PDF</a></p>
 <h2 id="a-safety-kernel-for-traffic-light-control">A Safety Kernel for Traffic Light Control</h2>
 <p><strong>Authors:</strong> Paul Ammann</p>
 <p><strong>Number:</strong> ISSE-TR-94-06</p>
 <p><strong>Abstract:</strong></p>
 <p>The success of kernels for enforcing security has led to proposals to use kernels for enforcing safety. As a feasibility demonstration of one such proposal, we describe a kernel for traffic light control. We argue the utility of the kernel and state the safety properties the kernel must ensure. We give a formal specification of the kernel and show that the specification maintains the safety properties. We explain an implementation of the kernel in Ada and discuss use of the kernel.</p>
-<p><a href="../../pdfs/1994/ISSE-TR-94-06.pdf">PDF</a></p>
+<p><a href="../pdfs/1994/ISSE-TR-94-06.pdf">PDF</a></p>
 <h2 id="experiments-with-data-flow-and-mutation-testing">Experiments with Data Flow and Mutation Testing</h2>
 <p><strong>Authors:</strong> Jeff Offutt, Jie Pan, Kanupriya Tewary, and Tong Zhang</p>
 <p><strong>Number:</strong> ISSE-TR-94-05</p>
 <p><strong>Abstract:</strong></p>
 <p>This paper presents two experimental comparisons of data flow and mutation testing. These two techniques are widely considered to be effective for unit-level software testing, but can only be analytically compared to a limited extent. We compare the techniques by evaluating the effectiveness of test data developed for each. For a number of programs, we develop ten independent sets of test data; five to satisfy the mutation criterion, and five to satisfy the all-uses data flow criterion. These test sets are developed using automated tools, in a manner consistent with the way a test engineer would apply these testing techniques. We use these test sets in two separate experiments. First we apply a "cross scoring", by measuring the effectiveness of the test data that was developed for one technique in terms of the other technique. Second, we investigate the ability of the test sets to find faults. We place a number of faults into each of our subject programs, and measure the number of faults that are detected by the test sets. Our results indicate that while both techniques are effective, mutation-adequate test sets are closer to satisfying data flow, and detect more faults.</p>
-<p><a href="../../pdfs/1994/ISSE-TR-94-05.pdf">PDF</a></p>
+<p><a href="../pdfs/1994/ISSE-TR-94-05.pdf">PDF</a></p>
 <h2 id="object-oriented-analysis-for-control-systems-with-shared-resources">Object-Oriented Analysis for Control Systems with Shared Resources</h2>
 <p><strong>Authors:</strong> Bo Sanden and Anhtuan Dinh</p>
 <p><strong>Number:</strong> ISSE-TR-94-04</p>
 <p><strong>Abstract:</strong></p>
 <p>(Unavailable in electronic form.  Please contact department for a hard copy.)</p>
-<p><a href="../../pdfs/1994/ISSE-TR-94-04.pdf">PDF</a></p>
+<p><a href="../pdfs/1994/ISSE-TR-94-04.pdf">PDF</a></p>
 <h2 id="entity-life-modeling-and-ada-9x">Entity-Life Modeling and Ada 9X</h2>
 <p><strong>Authors:</strong> Jeffrey R. Carter and Bo I. Sanden</p>
 <p><strong>Number:</strong> ISSE-TR-94-03</p>
 <p><strong>Abstract:</strong></p>
 <p>(Unavailable in electronic form.  Please contact department for a hard copy.)</p>
-<p><a href="../../pdfs/1994/ISSE-TR-94-03.pdf">PDF</a></p>
+<p><a href="../pdfs/1994/ISSE-TR-94-03.pdf">PDF</a></p>
 <h2 id="a-graduate-course-in-object-oriented-analysis-based-on-student-generated-projects">A Graduate Course in Object-Oriented Analysis Based on Student-Generated Projects</h2>
 <p><strong>Authors:</strong> Bo Sanden</p>
 <p><strong>Number:</strong> ISSE-TR-94-02</p>
 <p><strong>Abstract:</strong></p>
 <p>This paper describes the experience from several offerings of a Software Requirements course based on the Object Modeling Technique by Rumbaugh et al. The paper describes the organization of the course, which includes a semester project carried out by groups of 3-4 students. Descriptions of 20 such projects are given, most of which were based on ideas from the student teams.</p>
-<p><a href="../../pdfs/1994/ISSE-TR-94-02.pdf">PDF</a></p>
+<p><a href="../pdfs/1994/ISSE-TR-94-02.pdf">PDF</a></p>
 <h2 id="on-the-expressive-power-of-the-unary-transformation-model">On the Expressive Power of the Unary Transformation Model</h2>
 <p><strong>Authors:</strong> Ravi S. Sandhu and Srinivas Ganta</p>
 <p><strong>Number:</strong> ISSE-TR-94-01</p>
 <p><strong>Abstract:</strong></p>
 <p>The Transformation Model (TRM) was recently introduced in the literature by Sandhu and Ganta. TRM is based on the concept of {\em transformation of rights}. The propagation of access rights in TRM is authorized entirely by existing rights for the object in question. It has been demonstrated in earlier work that TRM is useful for expressing various kinds of consistency, confidentiality, and integrity controls. In our previous work a special case of TRM named Binary Transformation Model (BTRM) was defined. We proved that BTRM is equivalent in expressive power to TRM. This result indicates that it suffices to allow testing for only two cells of the matrix. In this paper we study the relationship between TRM and the Unary Transformation Model (UTRM). In UTRM, individual commands are restricted to testing for only one cell of the matrix (whereas individual TRM commands can test for multiple cells of the matrix). Contrary to our initial conjecture, we found, quite surprisingly, that TRM and UTRM are formally equivalent in terms of expressive power. The implications of this result on safety analysis is also discussed in this paper. The construction used to prove the equivalence of TRM and UTRM also indicates that they might not be practically equivalent.</p>
-<p><a href="../../pdfs/1994/ISSE-TR-94-01.pdf">PDF</a></p>
+<p><a href="../pdfs/1994/ISSE-TR-94-01.pdf">PDF</a></p>
 <h2 id="an-experimental-determination-of-sufficient-mutation-operators">An Experimental Determination of Sufficient Mutation Operators</h2>
 <p><strong>Authors:</strong> Jeff Offutt, Ammei Lee, Gregg Rothermel, Roland Untch, and Christian Zapf</p>
 <p><strong>Number:</strong> ISSE-TR-94-00</p>
 <p><strong>Abstract:</strong></p>
 <p>Mutation testing is a technique for unit testing software that, although powerful, is computationally expensive. The principal expense of mutation is that many variants of the test program, called mutants, must be repeatedly executed. Selective mutation is a way to reduce the cost of mutation testing by reducing the number of mutants that must be executed. This paper reports experimental results that compare selective mutation testing to standard, or non-selective, mutation testing. The results support the hypothesis that selective mutation is almost as strong as non-selective mutation; in experimental trials selective mutation provides almost the same coverage as non-selective mutation, with a four-fold or more reduction in cost.</p>
-<p><a href="../../pdfs/1994/ISSE-TR-94-00.pdf">PDF</a></p>
+<p><a href="../pdfs/1994/ISSE-TR-94-00.pdf">PDF</a></p>
 
 
 
