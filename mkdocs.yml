@@ -1,6 +1,7 @@
 site_name: Department of Computer Science | Technical Reports
 nav:
-  - index.md
+  - Home: index.md
+  - Guide: instruction.md
 
 theme:
   name: material
